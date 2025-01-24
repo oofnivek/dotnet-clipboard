@@ -313,3 +313,6 @@ DotNetClipboard/obj/Debug/net8.0/staticwebassets/msbuild.build.DotNetClipboard.p
 DotNetClipboard/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.DotNetClipboard.props
 DotNetClipboard/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.DotNetClipboard.props
 DotNetClipboard/obj/Debug/net8.0/staticwebassets/msbuild.DotNetClipboard.Microsoft.AspNetCore.StaticWebAssets.props
+.DS_Store
+DotNetClipboard/app.db-wal
+DotNetClipboard/app.db-shm

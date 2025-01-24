@@ -10,6 +10,12 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Configure port to listen on
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(port: 5432);
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
